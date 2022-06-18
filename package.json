@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Musicmatch telegram bot",
   "main": "app.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
   "keywords": [
     "musicmatch",
     "bot"
@@ -11,9 +14,12 @@
   "author": "ilosrim",
   "license": "MIT",
   "devDependencies": {
-    "dotenv": "^16.0.1",
     "i": "^0.3.7",
     "nodemon": "^2.0.16",
     "npm": "^8.12.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "telegraf": "^4.8.5"
   }
 }
